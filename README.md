@@ -1,4 +1,4 @@
-# Fireflies.ai Transcript Downloader
+# fireflies-to-clipboard
 
 This is a productivity app. Imagine how many times you thought about recording your thoughts on Fireflies.ai and then using the transcription for something else. Or maybe you wanted to summarize your thoughts using ChatGPT, not fireflies.ai, but you wanted to use fireflies.ai to record your thoughts.
 
