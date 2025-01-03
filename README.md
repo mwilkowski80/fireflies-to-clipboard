@@ -1,6 +1,8 @@
 # Fireflies.ai Transcript Downloader
 
-A simple Python application that downloads the transcription of your last uploaded recording from Fireflies.ai.
+This is a productivity app. Imagine how many times you thought about recording your thoughts on Fireflies.ai and then using the transcription for something else. Or maybe you wanted to summarize your thoughts using ChatGPT, not fireflies.ai, but you wanted to use fireflies.ai to record your thoughts.
+
+This is the answer. With this app, you can capture your transcription from fireflies.ai to your clipboard with a single click! The application has been tested on Linux. I am not sure if it works on Windows or Mac.
 
 ## Setup
 
@@ -51,3 +53,16 @@ This is useful when you want to quickly paste the transcript content into anothe
 - If you see "No transcripts found", it means there are no recordings in your account
 - If you see "Error: FIREFLIES_API_KEY not found", check your .env file configuration
 - If you see "Failed to copy transcript to clipboard", there might be an issue with clipboard access 
+
+### Hints
+
+Obviously, it takes a lot of time and is inconvenient to go to the folder, source the environment and run the script. My personal favourite approach is to create a bash script for this which resides in the PATH, i.e.:
+
+```bash
+#!/usr/bin/env bash
+
+cd /path/to/fireflies-to-clipboard
+python get_last_transcript.py clipboard
+```
+
+Enjoy!
