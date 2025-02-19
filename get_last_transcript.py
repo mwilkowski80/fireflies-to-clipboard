@@ -6,7 +6,7 @@ import pyperclip
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv()
+load_dotenv('ftc.env')
 
 API_KEY = os.getenv('FIREFLIES_API_KEY')
 BASE_URL = 'https://api.fireflies.ai/graphql'
